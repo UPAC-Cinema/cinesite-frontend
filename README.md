@@ -1,1 +1,1 @@
-# cinesite-frontend
+# Cinesite Frontend Development
