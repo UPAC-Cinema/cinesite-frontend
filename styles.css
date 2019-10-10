@@ -4,34 +4,33 @@ body {
 
 nav {
     list-style-type: none;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 70px;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #212123;
 }
 
 nav img {
-    height: 120px;
-    width: 120px;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: 90px;
+    width: 90px;
+    margin-left: 150px;
 }
 
 li {
     float: left;
-    width: 14%;
-    height: 120px;
+    width: 15%;
+    height: 90px;
 }
 
 li a {
   display: block;
   color: #ECCD34;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 16px;
   margin-top: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
 }
 
@@ -46,7 +45,7 @@ li a {
 
 .header-inner {
     background-color:#ECCD34;
-    font-size:24px;
+    font-size:20px;
     font-weight:bolder;
     padding-left: 20px;
     padding-top: 10px;
@@ -57,5 +56,5 @@ li a:hover:not(.active) {
   color: #ECCD34;
 }
 .active {
-  color: #ff0000;
+  color: #C01D2E;
 }
