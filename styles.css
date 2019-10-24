@@ -4,8 +4,7 @@ body {
 
 nav {
     list-style-type: none;
-    margin-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 2%;
     padding: 0;
     overflow: hidden;
     background-color: #212123;
@@ -19,7 +18,7 @@ nav img {
 
 li {
     float: left;
-    width: 15%;
+    width: 11%;
     height: 90px;
 }
 
@@ -28,10 +27,18 @@ li a {
   color: #ECCD34;
   text-align: center;
   padding: 8px 16px;
-  margin-top: 20px;
+  margin-top: 16px;
   text-decoration: none;
   font-size: 24px;
   font-weight: bolder;
+}
+
+redtitle {
+  font-weight: bold;
+  color: #B91D28;
+  font-size: 24px;
+  margin-left: 3%;
+
 }
 
 .container {
@@ -57,4 +64,32 @@ li a:hover:not(.active) {
 }
 .active {
   color: #C01D2E;
+}
+
+.margin_spaced{
+  margin-top: 2%;
+}
+
+.margin_form{
+  margin-left: 2%;
+}
+
+.margin_general_text{
+  margin-left: 3%;
+}
+
+.btn-primary{
+  background-color: #B91D28;
+  border-color: #B91D28;
+}
+
+.btn-primary:hover{
+  background-color: #B91D28;
+  border-color: #B91D28;
+}
+
+textarea{
+  resize: none;
+  max-width: 60%;
+  min-width: 60%;
 }
