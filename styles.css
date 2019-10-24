@@ -35,6 +35,38 @@ li a {
   font-weight: bolder;
 }
 
+.carousel {
+    background-color: #ECCD34;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(140px);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-140px)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+}
+
+.poster {
+    width: 120px;
+    height: 180px;
+}
+
 .container {
     background-color: #FFFFFF;
     padding: 0%;
