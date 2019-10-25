@@ -4,32 +4,34 @@ body {
 
 nav {
     list-style-type: none;
-    margin-bottom: 2%;
+    margin-top: 0px;
+    margin-bottom: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #212123;
+    background-color: black;
 }
 
 nav img {
-    height: 90px;
-    width: 90px;
-    margin-left: 150px;
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 
 li {
     float: left;
     width: 11%;
-    height: 90px;
+    height: 50%;
 }
 
 li a {
   display: block;
   color: #ECCD34;
   text-align: center;
-  padding: 8px 16px;
-  margin-top: 16px;
+  padding: 14px 16px;
+  margin-top: 20px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -38,7 +40,6 @@ redtitle {
   color: #B91D28;
   font-size: 24px;
   margin-left: 3%;
-
 }
 
 .container {
