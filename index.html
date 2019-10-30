@@ -13,42 +13,74 @@
         <!--Nav Bar: do not remove-->
         <nav id="nav-loader"></nav>
 
-        <div class="container">
-            <header class="header">
-                <div class="header-inner container">PAST MOVIES</div>
-            </header>
-            <table class="table TABLES">
-                <thead>
-                <tr>
-                    <th scope="col">Title</th>
-                    <th scope="col">Year</th>
-                    <th scope="col">Director</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Joker</td>
-                    <td>2019</td>
-                    <td>Todd Philips</td>
-                </tr>
-                <tr>
-                    <td>The Big Lebowski</td>
-                    <td>1998</td>
-                    <td>The Coen Brothers</td>
-                </tr>
-                <tr>
-                    <td>The Night Comes for Us</td>
-                    <td>2018</td>
-                    <td>Timo Tjahjanto</td>
-                </tr>
-                </tbody>
-            </table>
+        <div class="row" style="padding-top:50px; padding-bottom:50px;">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="big-poster" src="images/NightComesForUs.png">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-heading">
+                                Friday, 1/1 - 7PM, 9:30PM, 12AM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="big-poster" src="images/ONEPIECE.png">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-heading">Saturday</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <nav id="nav-loader"></nav>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="carousel-img"><img class="poster" src="images/NightComesForUs.png"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img"><img class="poster" src="images/scorpion_king.png"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img"><img class="poster" src="images/ONEPIECE.png"></div>
+                </div>
+            </div>
+        </div>
+
 
         <script type="text/javascript">
             $(function(){
                 $("#nav-loader").load("nav_bar.html");
             });
+        </script>
+
+        <script>
+        $('.carousel .carousel-item').each(function(){
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            if (next.next().length>0) {
+                next.next().children(':first-child').clone().appendTo($(this));
+            }
+            else {
+                $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+            }
+        });
         </script>
 
     	<!-- JS Stuff bootstrap says to include -->
