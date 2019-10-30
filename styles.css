@@ -34,6 +34,13 @@ li a {
   font-weight: bolder;
 }
 
+li b {
+  display: block;
+  padding: 5% 20% 10%;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
 redtitle {
   font-weight: bold;
   color: #B91D28;
@@ -62,8 +69,9 @@ redtitle {
 li a:hover:not(.active) {
   color: #ECCD34;
 }
+
 .active {
-  color: #C01D2E;
+  color: #B91D28;
 }
 
 .margin_spaced{
@@ -81,6 +89,13 @@ li a:hover:not(.active) {
 .btn-primary{
   background-color: #B91D28;
   border-color: #B91D28;
+  box-shadow: none !important;
+}
+
+.btn-primary:active{
+  background-color: #a11818 !important; 
+  border-color: #a11818 !important;
+  box-shadow: none !important;
 }
 
 .btn-primary:hover{
@@ -92,4 +107,9 @@ textarea{
   resize: none;
   max-width: 60%;
   min-width: 60%;
+}
+
+.form-control:focus {
+  border-color: #B91D28;
+  box-shadow: none !important;
 }
