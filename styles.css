@@ -5,6 +5,7 @@ body {
 nav {
     list-style-type: none;
     margin-top: 0px;
+    margin-bottom: 2%;
     padding: 0;
     overflow: hidden;
     background-color: black;
