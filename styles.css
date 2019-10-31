@@ -93,9 +93,10 @@ li a:hover:not(.active) {
   box-shadow: none !important;
 }
 
+/* old color: #a11818*/
 .btn-primary:active{
-  background-color: #a11818 !important; 
-  border-color: #a11818 !important;
+  background-color: #B91D28 !important;
+  border-color: #B91D28 !important;
   box-shadow: none !important;
 }
 
