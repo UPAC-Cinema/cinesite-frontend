@@ -72,6 +72,7 @@ li a:hover:not(.active) {
 
 .active {
   color: #B91D28;
+  text-decoration: underline;
 }
 
 .margin_spaced{
