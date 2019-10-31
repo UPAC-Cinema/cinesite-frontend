@@ -67,8 +67,6 @@ li a {
 }
 
 .big-poster {
-    width: 220px;
-    height: 330px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -92,6 +90,11 @@ redtitle {
 
 .panel {
     background-color: #FFFFFF;
+}
+
+.panel-body {
+    margin-left: 10px;
+    margin-right: 10xp;
 }
 
 .header-inner {
