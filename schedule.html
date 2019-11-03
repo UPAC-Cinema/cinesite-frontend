@@ -17,7 +17,10 @@
             <header class="header">
                 <div class="header-inner container">PAST MOVIES</div>
             </header>
-            <table class="table TABLES">
+            <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search" style="width:95%; text-align:center; margin-right:auto; margin-left:auto;">
+            </div>
+            <table class="table TABLES" style="padding-top:10px;">
                 <thead>
                 <tr>
                     <th scope="col">Title</th>
@@ -44,12 +47,6 @@
                 </tbody>
             </table>
         </div>
-
-        <script type="text/javascript">
-            $(function(){
-                $("#nav-loader").load("nav_bar.html");
-            });
-        </script>
 
         <script type="text/javascript">
             $(function(){
