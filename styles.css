@@ -12,8 +12,8 @@ nav {
 }
 
 nav img {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin-left: 20%;
     margin-right: 10%;
 }
@@ -33,6 +33,17 @@ li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bolder;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #212123;
+    color: white;
+    text-align: center;
 }
 
 .carousel {
@@ -165,3 +176,4 @@ textarea{
   border-color: #B91D28;
   box-shadow: none !important;
 }
+
