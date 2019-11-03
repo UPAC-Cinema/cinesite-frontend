@@ -1,13 +1,58 @@
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
 <nav id="nav-loader">
-    <li><img src="images/logo.png"></li>
+    <a href="index.html" style ="float: left; width: 11%; height: 50%">
+      <img src="images/logo.png" alt="my picture"/>
+    </a>
     <li class="border-left"><a href="index.html">Home</a></li>
     <li class="border-left"><a href="schedule.html">Schedule</a></li>
-    <li class="border-left"><a href="sponsor.html">Club Sponsors</a></li>
+    <li class="border-left"><a href="sponsor.html">Sponsor a Movie</a></li>
     <li class="border-left"><a href="faq.html">FAQ</a></li>
     <li class="border-left"><a href="policies.html">Policies</a></li>
     <li class="border-left"><a href="bylaws.html">Bylaws</a></li>
     <li class="border-left"><a href="feedback.html">Feedback</a></li>
-    <li class="border-left"><a href="#login">Officer Login</a></li>
-</div>
+    <li class="border-left">
+    	<b>
+    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Officer Login</button>
+    	</b>
+    </li>
+
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header" style="background-color: #ECCD34;">
+	        <h5 class="modal-title" style="font-weight: bold" id="loginModalLabel">LOGIN</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	          <div class="form-group">
+	            <label for="username" class="col-form-label">Username:</label>
+	            <input type="text" class="form-control" id="username">
+	          </div>
+	          <div class="form-group">
+	            <label for="password" class="col-form-label">Password:</label>
+	            <input type="text" class="form-control" id="password">
+	          </div>
+	          <div class = "btn-group float-right row">
+	          	<div class = "col-md-8"><button type="button" class="btn btn-secondary float-right" data-dismiss="modal">Close</button></div>
+	          	<div class ="col-md-2"></div>
+	          	<div class = "col-md-2"><button type="submit" class="btn btn-primary float-right">Login</button></div>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script type= "text/javascript">
+		$(document).ready(function() {
+			$("[href]").each(function() {
+				if (this.href == window.location.href) {
+					$(this).addClass("active");
+				}
+			})
+		});
+	</script>
+</nav>
