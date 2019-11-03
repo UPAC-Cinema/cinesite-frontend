@@ -5,6 +5,7 @@ body {
 nav {
     list-style-type: none;
     margin-top: 0px;
+    margin-bottom: 2%;
     padding: 0;
     overflow: hidden;
     background-color: #212123;
@@ -142,6 +143,7 @@ li a:hover:not(.active) {
   box-shadow: none !important;
 }
 
+/* old color: #a11818*/
 .btn-primary:active{
   background-color: #a11818 !important;
   border-color: #a11818 !important;

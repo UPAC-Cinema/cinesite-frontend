@@ -1,1 +1,1 @@
-# Cinesite Frontend Development
+# UPAC Cinema Frontend Repository
