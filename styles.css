@@ -29,9 +29,9 @@ li a {
   color: #ECCD34;
   text-align: center;
   padding: 5% 5% 15%;
-  margin-top: 20px;
+  margin-top: 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -82,7 +82,7 @@ li a {
 li b {
   display: block;
   padding: 5% 20% 10%;
-  margin-top: 20px;
+  margin-top: 10px;
   text-decoration: none;
 }
 

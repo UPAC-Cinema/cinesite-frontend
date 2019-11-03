@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <title>Sponsor a Film</title>
+  	</head>
+  	<body>
+
+        <!--Nav Bar: do not remove-->
+        <nav id="nav-loader"></nav>
+
+        <div class="container margin_spaced">
+            <header class = header>
+                <div class="header-inner container">UPDATE SCHEDULE</div>
+            </header>
+            <form>
+                <div class = "form-group row margin_form" style="margin-top: 2%">
+                    <label for="title" class = "col-sm-3 col-form-label">Title</label>
+                    <div class = "col-sm-4">
+                        <input type="text" class="form-control" id="title">
+                    </div>
+                </div>
+                <div class = "form-group row margin_form">
+                    <label for="year" class = "col-sm-3 col-form-label">Year</label>
+                    <div class = "col-sm-4">
+                        <input type="text" class="form-control" id="year">
+                    </div>
+                </div>
+                <div class = "form-group row margin_form">
+                    <label for="showdate" class = "col-sm-3 col-form-label">Showdate</label>
+                    <div class = "col-sm-4">
+                        <input type="date" class="form-control" id="showdate">
+                    </div>
+                </div>
+                <div class = "form-group row margin_form">
+                    <label for="showtimes" class = "col-sm-3 col-form-label">Showtimes</label>
+                    <div class = "col-sm-4">
+                        <input type="radio" name="showtimes" id="showtimes" value="7:00PM,9:30PM,12:00AM">  Regular Showtimes (7PM, 9:30PM, 12AM)<br>
+                        <input type="radio" name="showtimes" id="showtimes" value="7:00PM,10:00PM,1:00AM">  Extended Showtimes (7PM, 10PM, 1AM)<br>
+                        <input type="radio" name="showtimes" id="showtimes" value="7:00PM,11:00PM">  Super Extended Showtimes (7PM, 11PM)<br>
+                    </div>
+                </div>
+                <div class="form-group row margin_form" style="padding-bottom:1%;">
+                    <div class="col">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="reset" class="btn btn-primary">Clear Form</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container margin_spaced">
+            <header class="header">
+                <div class="header-inner container">UPDATE BYLAWS, POLICIES, AND FAQ</div>
+            </header>
+            <form>
+                <div class = "form-group row margin_form" style="margin-top:2%;">
+                    <label for="bylaws" class = "col-sm-3 col-form-label">Bylaws</label>
+                    <div class = "col-sm-4">
+                        <input type="file" id="bylaws" accept=".pdf">
+                    </div>
+                </div>
+                <div class = "form-group row margin_form" style="margin-top:2%;">
+                    <label for="policies" class = "col-sm-3 col-form-label">Policies</label>
+                    <div class = "col-sm-4">
+                        <input type="file" id="policies" accept=".pdf">
+                    </div>
+                </div>
+                <div class="form-group row margin_form">
+                    <label for="faq" class="col-sm-3 col-form-label">FAQ</label>
+                    <div class="col-sm-4">
+                        <input type="file" id="faq" accept=".pdf">
+                    </div>
+                </div>
+                <div class="form-group row margin_form" style="padding-bottom:1%;">
+                    <div class="col">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="reset" class="btn btn-primary">Clear Form</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script type="text/javascript">
+            $(function(){
+                $("#nav-loader").load("nav_bar.html");
+            });
+        </script>
+
+    	<!-- JS Stuff bootstrap says to include -->
+<!--        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  	</body>
+</html>
