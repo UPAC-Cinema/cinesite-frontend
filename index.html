@@ -12,68 +12,77 @@
 
         <!--Nav Bar: do not remove-->
         <nav id="nav-loader"></nav>
-
-        <div class="row" style="padding-top:50px; padding-bottom:50px;">
-            <div class="col-lg-6" style="padding-bottom:10px;">
-                <div class="panel">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="big-poster" src="images/NightComesForUs.png">
+        <div class = "container-fluid">
+            <div class="row" style="padding-top:50px; padding-bottom:50px;">
+                <div class="col-lg-6" style="padding-bottom:10px;">
+                    <div class="panel">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="big-poster" src="images/NightComesForUs.png">
+                            </div>
+                            <div class="col-md-8" style="padding-left:60px;">
+                                <div class="panel panel-heading" style="padding-bottom:10px; padding-top:10px;">
+                                    Friday, 1/1 - 7PM, 9:30PM, 12AM
+                                </div>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HfSisHrUTLM"></iframe>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8" style="padding-left:60px;">
-                            <div class="panel panel-heading" style="padding-bottom:10px; padding-top:10px;">
-                                Friday, 1/1 - 7PM, 9:30PM, 12AM
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HfSisHrUTLM"></iframe>
-                            </div>
+                        <div class="col-lg-12" style="padding-bottom:10px; padding-top:10px;">
+                            Ito, a gangland enforcer, is caught amidst a treacherous and violent insurrection within his Triad crime family.
                         </div>
                     </div>
-                    <div class="col-lg-12" style="padding-bottom:10px; padding-top:10px;">
-                        Ito, a gangland enforcer, is caught amidst a treacherous and violent insurrection within his Triad crime family.
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="big-poster" src="images/ONEPIECE.png">
+                            </div>
+                            <div class="col-md-8" style="padding-left:60px;">
+                                <div class="panel panel-heading" style="padding-bottom:10px; padding-top:10px;">
+                                    Saturday, 1/2 - 7PM, 9:30PM, 12AM
+                                </div>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S8_YwFLCh4U"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12" style="padding-bottom:10px;">
+                            The world's boldest buccaneers set sail for the great Pirate Festival, where the Straw Hats join a mad-dash race to find Gol D.Roger's treasure. There's just one little problem. An old member of Roger's crew has a sinister score to settle. All bets are off when the most iconic pirates of One Piece history band together for a swashbuckling showdown, the likes of which have never been seen!
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="big-poster" src="images/ONEPIECE.png">
-                        </div>
-                        <div class="col-md-8" style="padding-left:60px;">
-                            <div class="panel panel-heading" style="padding-bottom:10px; padding-top:10px;">
-                                Saturday, 1/2 - 7PM, 9:30PM, 12AM
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S8_YwFLCh4U"></iframe>
-                            </div>
-                        </div>
+        </div>
+        <div class = "container-fluid" style = "margin-bottom: 7%">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="carousel-img"><img class="poster" src="images/NightComesForUs.png"></div>
                     </div>
-                    <div class="col-lg-12" style="padding-bottom:10px;">
-                        The world's boldest buccaneers set sail for the great Pirate Festival, where the Straw Hats join a mad-dash race to find Gol D.Roger's treasure. There's just one little problem. An old member of Roger's crew has a sinister score to settle. All bets are off when the most iconic pirates of One Piece history band together for a swashbuckling showdown, the likes of which have never been seen!
+                    <div class="carousel-item">
+                        <div class="carousel-img"><img class="poster" src="images/scorpion_king.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img"><img class="poster" src="images/ONEPIECE.png"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="carousel-img"><img class="poster" src="images/NightComesForUs.png"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-img"><img class="poster" src="images/scorpion_king.png"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-img"><img class="poster" src="images/ONEPIECE.png"></div>
-                </div>
-            </div>
-        </div>
+        <div id="footer-loader"></div>
 
         <script type="text/javascript">
             $(function(){
                 $("#nav-loader").load("nav_bar.html");
+            });
+        </script>
+        <script type="text/javascript">
+            $(function(){
+                $("#footer-loader").load("footer.html");
             });
         </script>
 
