@@ -77,16 +77,24 @@
                     <label for="feedbackArea">Comments</label>
                     <textarea class="form-control" id="feedbackArea" rows="6"></textarea>
                 </div>
-                <div class="form-group row margin_form" style="padding-bottom: 1%">
+                <div class="form-group row margin_form" style="padding-bottom: 10%">
                     <div class="col">
                       <button type="submit" class="btn btn-primary">Send Feedback</button>
                       <button type="reset" class="btn btn-primary">Clear Form</button>
                 </div>
             </form>
         </div>
+
+        <div id="footer-loader"></div>
+
         <script type="text/javascript">
             $(function(){
                 $("#nav-loader").load("nav_bar.html");
+            });
+        </script>
+        <script type="text/javascript">
+            $(function(){
+                $("#footer-loader").load("footer.html");
             });
         </script>
 
